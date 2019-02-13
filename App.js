@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 let Header = require('./src/components/Header').Header;
 let AlbumList = require('./src/components/AlbumList').AlbumList;
+
 // import axios from 'axios';
 
 // const Home = () => {

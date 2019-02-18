@@ -3,14 +3,10 @@ import { View, Text } from 'react-native';
 
 const Card = (props) => {
      //console.log(props);
-     //let prop = JSON.parse(props.childern);
-     console.log(props.childern);
-    return(
-        // <View style={styles.containerStyle}>
-         <View>
-           {props.childern}
-        </View>
-    );
+     //let prop = JSON.parse(props.children);
+    //   console.log(props);
+     return (<View style={styles.containerStyle}>{props.children}</View>) ;
+    
 };
 
 const styles = {
@@ -30,6 +26,8 @@ const styles = {
     }
 }
 
-module.exports = {
-    Card:Card
-}
+// module.exports = {
+//     Card:Card
+// }
+
+export default Card
